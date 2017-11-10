@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/APKSlit.iml" filepath="$PROJECT_DIR$/APKSlit.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample-apps-android-abi-split.iml" filepath="$PROJECT_DIR$/sample-apps-android-abi-split.iml" />
     </modules>
   </component>
 </project>
