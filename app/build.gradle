@@ -24,13 +24,13 @@ android {
         abi {
             enable true
             reset()
-            include "armeabi-v7a", "x86"
-            universalApk false
+            include "armeabi-v7a", "armeabi-v8a"
+            universalApk true
         }
     }
 }
 
-ext.abiCodes = ['x86': 1, 'armeabi-v7a': 2]
+ext.abiCodes = ['universal': 0, 'arm64-v7a': 1, 'armeabi-v8a': 2]
 
 import com.android.build.OutputFile
 
