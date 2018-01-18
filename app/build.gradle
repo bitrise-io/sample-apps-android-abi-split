@@ -30,7 +30,7 @@ android {
     }
 }
 
-ext.abiCodes = ['armeabi-v7a': 1, 'x86': 2]
+ext.abiCodes = ['x86': 1, 'armeabi-v7a': 2]
 
 import com.android.build.OutputFile
 
